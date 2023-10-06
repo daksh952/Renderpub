@@ -4,10 +4,7 @@
     box-sizing: border-box;
 }
 
-:root {
-    --orange: #F2C14E;
-    --winning-blocks: #2d414b;
-}
+
 
 body {
     color: var(--orange);
@@ -51,17 +48,3 @@ h1 {
 .box:nth-child(6) ~ .box {
     border-bottom: none;
 } 
-button {
-    padding: 10px 20px;
-    border-radius: 10px;
-    background-color: var(--orange);
-    color: #333;
-    border-color: var(--orange);
-    font-size: 18px;
-    transition: 200ms transform;
-    font-weight: 600;
-}
-button:hover {
-    cursor: pointer;
-    transform: translateY(-2px);
-}
